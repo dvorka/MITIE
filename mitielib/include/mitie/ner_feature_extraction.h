@@ -7,9 +7,9 @@
 #include <map>
 #include <string>
 #include <vector>
-#include <dlib/uintn.h>
-#include <dlib/matrix.h>
-#include <mitie/total_word_feature_extractor.h>
+#include "../../../dlib/dlib/uintn.h"
+#include "../../../dlib/dlib/matrix.h"
+#include "total_word_feature_extractor.h"
 
 namespace mitie
 {

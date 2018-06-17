@@ -4,11 +4,11 @@
 #ifndef MIT_LL_MITIE_NaMED_ENTITY_EXTRACTOR_H_
 #define MIT_LL_MITIE_NaMED_ENTITY_EXTRACTOR_H_
 
-#include <mitie/total_word_feature_extractor.h>
-#include <mitie/ner_feature_extraction.h>
-#include <dlib/svm.h>
-#include <dlib/vectorstream.h>
-#include <dlib/hash.h>
+#include "total_word_feature_extractor.h"
+#include "ner_feature_extraction.h"
+#include "../../../dlib/dlib/svm.h"
+#include "../../../dlib/dlib/vectorstream.h"
+#include "../../../dlib/dlib/hash.h"
 
 namespace mitie
 {

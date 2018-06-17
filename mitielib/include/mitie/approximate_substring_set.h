@@ -5,8 +5,10 @@
 #define MIT_LL_APPROXIMATE_SUBSTRiNG_SET_H_
 
 #include <iostream>
-#include <dlib/uintn.h>
-#include <dlib/serialize.h>
+// dvorka - dlib MUST NOT be added to includes: #include <dlib/uintn.h>
+#include "../../../dlib/dlib/uintn.h"
+//#include <dlib/serialize.h>
+#include "../../../dlib/dlib/serialize.h"
 #include <vector>
 
 using namespace std;

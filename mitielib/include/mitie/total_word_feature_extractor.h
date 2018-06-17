@@ -6,9 +6,9 @@
 
 #include <map>
 #include "word_morphology_feature_extractor.h"
-#include <dlib/statistics.h>
-#include <dlib/vectorstream.h>
-#include <dlib/hash.h>
+#include "../../../dlib/dlib/statistics.h"
+#include "../../../dlib/dlib/vectorstream.h"
+#include "../../../dlib/dlib/hash.h"
 
 namespace mitie 
 {
