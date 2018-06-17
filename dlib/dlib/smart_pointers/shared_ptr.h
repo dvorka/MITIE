@@ -296,8 +296,7 @@ namespace dlib
 
         template<typename Y>
         explicit shared_ptr(
-            // Dvorka for MindForger: replacing 'std::auto_ptr<Y>& r' with 'std::shared_ptr<Y>& r' to avoid compilation warnings & its risky use
-            std::shared_ptr<Y>& r
+            std::auto_ptr<Y>& r
         )
         {
             DLIB_ASSERT(r.get() != 0,
@@ -329,8 +328,7 @@ namespace dlib
 
         template<typename Y> 
         shared_ptr& operator= (
-            // dvorka: replacing 'std::auto_ptr<Y>& r' with 'std::shared_ptr<Y>& r' to avoid compilation warnings & its risky use
-            std::shared_ptr<Y>& r
+            std::auto_ptr<Y>& r
         )
         {
             DLIB_ASSERT(r.get() != 0,
