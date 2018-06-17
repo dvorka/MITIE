@@ -1062,7 +1062,7 @@ namespace dlib
         }
         
     }
-    DLIB_DEFINE_OP_MS(op_lessthan, impl::lessthan, 1);
+    DLIB_DEFINE_OP_MS(op_lessthan, impl::lessthan, 1)
 
     template <
         typename EXP,
@@ -1112,7 +1112,7 @@ namespace dlib
         }
         
     }
-    DLIB_DEFINE_OP_MS(op_lessthan_eq, impl::lessthan_eq, 1);
+    DLIB_DEFINE_OP_MS(op_lessthan_eq, impl::lessthan_eq, 1)
 
     template <
         typename EXP,
@@ -1162,7 +1162,7 @@ namespace dlib
         }
         
     }
-    DLIB_DEFINE_OP_MS(op_greaterthan, impl::greaterthan, 1);
+    DLIB_DEFINE_OP_MS(op_greaterthan, impl::greaterthan, 1)
 
     template <
         typename EXP,
@@ -1212,7 +1212,7 @@ namespace dlib
         }
         
     }
-    DLIB_DEFINE_OP_MS(op_greaterthan_eq, impl::greaterthan_eq, 1);
+    DLIB_DEFINE_OP_MS(op_greaterthan_eq, impl::greaterthan_eq, 1)
 
     template <
         typename EXP,
@@ -1262,7 +1262,7 @@ namespace dlib
         }
         
     }
-    DLIB_DEFINE_OP_MS(op_equal_to, impl::equal_to, 1);
+    DLIB_DEFINE_OP_MS(op_equal_to, impl::equal_to, 1)
 
     template <
         typename EXP,
@@ -1312,7 +1312,7 @@ namespace dlib
         }
         
     }
-    DLIB_DEFINE_OP_MS(op_not_equal_to, impl::not_equal_to, 1);
+    DLIB_DEFINE_OP_MS(op_not_equal_to, impl::not_equal_to, 1)
 
 
     template <

@@ -253,9 +253,9 @@ namespace mitie
 
         const dlib::multiclass_linear_decision_function<dlib::sparse_linear_kernel<ner_sample_type>,unsigned long>& get_df() const {
             return df;
-        };
+        }
 
-        const int get_max_supported_pure_model_version() const { return pure_model_version_1; }
+        int get_max_supported_pure_model_version() const { return pure_model_version_1; }
 
         enum supported_pure_model_versions {
             pure_model_version_0 = 0,
@@ -276,9 +276,9 @@ namespace mitie
             fingerprint = dlib::murmur_hash3_128bit(&buf[0], buf.size()).first;
         }
 
-        int pure_model_version;
         dlib::uint64 fingerprint;
         dlib::uint64 tfe_fingerprint;
+        int pure_model_version;
         std::vector<std::string> tag_name_strings;
         total_word_feature_extractor fe;
         dlib::sequence_segmenter<ner_feature_extractor> segmenter;
